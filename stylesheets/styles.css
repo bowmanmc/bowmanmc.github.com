@@ -1,11 +1,20 @@
 
+html, body {
+  background: url(../images/metal.jpg);
+  text-shadow: 1px 1px 0 #fff;
+}
+
 header {
+  background: url(../images/metal-bk.jpg);
   border: 1px solid #fff;
   border-bottom-right-radius: 7px;
   border-top-right-radius: 7px;
   box-shadow: 0 0 3px #000;
+  text-shadow: 1px 1px 0 #000;
 }
 
+h3 {
+}
 .item {
 
 }
