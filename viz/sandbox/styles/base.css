@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #2b91af;
+  color: #e3e6e9;
+  text-shadow: 1px 1px 0 #123c49;
+}
+svg {
+  height: 100%;
+  width: 100%;
+}

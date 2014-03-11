@@ -1,0 +1,14 @@
+{
+    "name": "bowmanmc.github.com",
+    "version": "2.0.1",
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "latest",
+        "express": "latest",
+        "tiny-lr": "latest",
+        "connect-livereload": "latest"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    }
+}
