@@ -7,6 +7,7 @@ html, body {
 header {
   background: url(../images/metal-bk.jpg);
   border: 1px solid #fff;
+  border-left: none;
   border-bottom-right-radius: 7px;
   border-top-right-radius: 7px;
   box-shadow: 0 0 7px #333;
