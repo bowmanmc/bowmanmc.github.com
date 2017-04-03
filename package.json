@@ -1,0 +1,49 @@
+{
+  "name": "bowmanmc.github.io",
+  "version": "2.0.0",
+  "description": "Resume website for Michael Bowman",
+  "scripts": {
+    "jekyll": "jekyll build --incremental --source src --destination docs",
+    "clean": "rimraf docs",
+    "watch": "npm-run-all --parallel watch:jekyll watch:sass",
+    "watch:jekyll": "nodemon -w src -e html,md,png,jpg,gif,svg,yml,xml,js,css,yml -x \"npm run jekyll\"",
+    "watch:sass": "nodemon -e scss -w src/sass -x \"npm run sass\"",
+    "sass": "node-sass --source-map true --include-path src/sass --include-path node_modules src/sass/main.scss src/_includes/bundle.css",
+    "postsass": "postcss -c postcss.config.json",
+    "server:dev": "babel-node tools/runBrowserSync.js",
+    "prebuild": "npm run clean",
+    "build": "npm-run-all sass jekyll",
+    "prestart": "npm run build",
+    "start": "npm-run-all --parallel server:dev watch",
+    "dist": "npm-run-all sass jekyll version",
+    "version": "babel-node tools/writeVersionTxt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bowmanmc/bowmanmc.github.io.git"
+  },
+  "author": "Michael Bowman <bowmanmc@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/bowmanmc/bowmanmc.github.io/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "aws-publisher": "0.0.4",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "browser-sync": "^2.18.5",
+    "copy-dir": "^0.3.0",
+    "cssnano": "^3.10.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.17.1",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
+    "normalize.css": "^5.0.0",
+    "npm-run-all": "^3.1.2",
+    "postcss-cli": "^2.6.0",
+    "rimraf": "^2.5.4",
+    "sync-exec": "^0.6.2"
+  }
+}

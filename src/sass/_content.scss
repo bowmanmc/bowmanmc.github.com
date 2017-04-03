@@ -1,0 +1,49 @@
+$max-width: 512px;
+
+.content {
+    margin: 0 auto;
+    max-width: $max-width;
+    padding: 1.0em;
+}
+
+.header {
+    background: $clr-highlight;
+    background-image: linear-gradient(45deg, darken($clr-highlight, 7%), $clr-highlight);
+    border-bottom: 1px solid $clr-white;
+    color: $clr-white;
+    padding: 2.0em 1.0em 0.5em 1.0em;
+    text-align: center;
+    text-shadow: 1px 1px 0 darken($clr-highlight, 15%);
+
+    a {
+        color: $clr-white;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}
+
+.header__logo {
+    text-align: center;
+}
+.header__browserlink {
+    font-size: 12px;
+    margin-top: 2.5em;
+    text-align: right;
+}
+
+.footer {
+    background: $clr-dark;
+    border-top: 1px solid $clr-white;
+    color: $clr-white;
+    font-size: 14px;
+    min-height: 400px;
+    padding: 2.0em 1.0em;
+
+    div {
+        margin: 0 auto;
+        margin-bottom: 2.0em;
+        max-width: $max-width;
+    }
+}

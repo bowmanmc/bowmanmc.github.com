@@ -1,3 +1,9 @@
+_site
+build
+.sass-cache
+.jekyll-metadata
 node_modules
-.idea
-
+.DS_Store
+npm-debug*.log
+src/_includes/*.css
+src/_includes/*.map
