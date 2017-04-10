@@ -23,11 +23,11 @@ catch (err) {
     console.log('    ' + err.message);
 }
 
-fs.appendFileSync(out, '\nQuick Bits 001 - Hello D3');
+fs.appendFileSync(out, '\nMichael Bowman');
 fs.appendFileSync(out, '\n=========================');
 fs.appendFileSync(out, '\nName: ' + pkg.name);
 fs.appendFileSync(out, '\nDescription: ' + pkg.description);
-fs.appendFileSync(out, '\nURL: https://github.com/bowmanmc/qb001-hello_d3');
+fs.appendFileSync(out, '\nURL: https://github.com/bowmanmc/bowmanmc.github.io');
 fs.appendFileSync(out, '\nVersion: ' + pkg.version);
 fs.appendFileSync(out, '\nGit Branch: ' + branch);
 fs.appendFileSync(out, '\nGit Revision: ' + rev);
