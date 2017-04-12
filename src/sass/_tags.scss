@@ -1,30 +1,16 @@
-
-body {
-    background: #f6f6f6;
-    color: $clr-black;
+html {
+    background: $clr-highlight-alt;
 }
 
-figure {
-    margin: 1.0em 0;
+body {
+    background: $clr-light;
+    color: $clr-dark;
 }
 
 a {
     color: $clr-highlight;
-    font-weight: bold;
-    text-decoration: underline;
-    text-shadow: none;
-    white-space: normal;
-    word-wrap: break-word;
 
     &:hover {
         color: lighten($clr-highlight, 10%);
-    }
-}
-
-ul {
-    list-style: none;
-
-    li {
-        margin: 0.5em 0;
     }
 }

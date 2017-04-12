@@ -1,13 +1,15 @@
 
-$green-main: #4ba94f;
-$green-alt: #c1d830;
-$yellow: #fcee21;
+$light-warm: #FFFCF3;
+$dark-cool: #1E1E20;
+
+$green-main: #1F8A70;
+$green-alt: #BEDB39;
 
 
-$clr-dark: #515c5f;
-
+$clr-dark: $dark-cool;
+$clr-light: $light-warm;
 $clr-highlight: $green-main;
 $clr-highlight-alt: $green-alt;
 
 $clr-white: #ffffff;
-$clr-black: #111c1f;
+$clr-black: #000000;
