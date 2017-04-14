@@ -3,13 +3,16 @@ $system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
 $serif: Georgia,Cambria,'Times New Roman',Times,serif;
 $sanserif: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Arial, sans-serif;
 
-$fontstack-body: $serif;
-$fontstack-headings: $system;
+$merriweather-stack: 'Merriweather', $serif;
+$fjalla-stack: 'Fjalla One', $sanserif;
+
+$fontstack-body: $merriweather-stack;
+$fontstack-headings: $fjalla-stack;
 
 
 body, html {
     font-family: $fontstack-body;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.65em;
 }
 
