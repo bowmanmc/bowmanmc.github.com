@@ -1,0 +1,14 @@
+footer {
+    background: $clr-dark;
+    border-top: 1px solid $clr-white;
+    color: $clr-light;
+    margin-top: 3.0em;
+    min-height: 400px;
+    padding: 2.0em 1.0em;
+
+    div {
+        margin: 0 auto;
+        margin-bottom: 2.0em;
+        max-width: $max-width;
+    }
+}

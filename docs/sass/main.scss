@@ -3,8 +3,12 @@
 // Libraries
 @import 'normalize.css/normalize';
 
-// Our stuff
-@import 'colors';
-@import 'typography';
-@import 'tags';
-@import 'content';
+// Defaults
+@import 'defaults/colors';
+@import 'defaults/typography';
+@import 'defaults/tags';
+
+// Page Components
+@import 'components/content';
+@import 'components/footer';
+@import 'components/header';
