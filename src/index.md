@@ -59,33 +59,40 @@ Worked on the Red Hat Network Satellite Server product helping to deliver bug f
 
 ## Public Work
 ### Americons
-http://americons.us
+[http://americons.us](http://americons.us)
+
 Americons is an open source icon font and SVG library I developed in early 2017. It provides developers with an easy way to incorporate state outlines into their projects. The state SVG files were developed using TIGER shape files from the Census Bureau, D3, JSDom, SVGO, and NPM/Node.js scripts to automate the process.
 
 ### Dayton Data Visualization
-http://daytondv.org
+[http://daytondv.org](http://daytondv.org)
+
 I founded the Dayton Data Visualization group in 2014 to gather Dayton area experts to network and share knowledge. I organize the quarterly meetups and maintain the website. The group has grown to over 300 members and has hosted a number of great speakers on a wide variety of topics.
 
 ### Code for Dayton
-http://codefordayton.github.io/opendataday2017 
+[http://codefordayton.github.io/opendataday2017](http://codefordayton.github.io/opendataday2017)
+
 I am on the leadership team of Code for Dayton, the Dayton area Code for America brigade. I’ve organized and led development projects for the Dayton RTA and Five Rivers MetroParks (the Dayton regional park system). Recently, I organized our 2017 Open Data Day event, gathering data, developing the website, and promoting the event to the local community.
 
 ### Flock
-https://appliedis.github.io/demos/flock
+[https://appliedis.github.io/demos/flock](https://appliedis.github.io/demos/flock)
+
 Led a four person internal R&D team in the development of Flock, a signature clustering concept application. This application consists of a back-end processing system built on Apache Spark and its machine learning library to categorize incoming 2D signatures into profiles. Analysts can then go in through the web application and annotate and comment on the different types of signatures in the system.
 
 
 ## Conference Presentations
 ### Designing Beautiful Maps with D3.js
-http://bowmanmc.github.io/designing_maps
+[http://bowmanmc.github.io/designing_maps](http://bowmanmc.github.io/designing_maps)
+
 Dayton Data Visualization (Dayton, OH – Nov. 2014), Chicago Web Conf (Chicago, IL – Feb. 2015), FOSS4G N/A (San Francisco, CA – Mar. 2015),  Code Pen Dayton (Dec. 2015)
 
 ### Squatchin with D3.js
-https://github.com/bowmanmc/squatchin
+[https://github.com/bowmanmc/squatchin](https://github.com/bowmanmc/squatchin)
+
 JS.Geo (Philadelpha, PA – Aug. 2015), Dayton Web Developers Meetup (Dayton, OH – Jan. 2016)
 
 ### Web Mapping Workshop (Dayton, Ohio – Sep. 2016)
-https://codefordayton.github.io/mapping_workshop
+[https://codefordayton.github.io/mapping_workshop](https://codefordayton.github.io/mapping_workshop)
+
 Dayton Data Visualization, Code for Dayton, and Girl Develop it (Dayton chapter) worked together to author, organize, and host a half day workshop for their members. I authored and taught the workshop covering usage of the Leaflet JavaScript library for web mapping.
 
 
