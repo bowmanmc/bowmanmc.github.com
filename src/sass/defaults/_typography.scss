@@ -7,15 +7,43 @@ $fjalla-stack: 'Fjalla One', $sanserif;
 $fontstack-body: $merriweather-stack;
 $fontstack-headings: $fjalla-stack;
 
+$base-font-size: 17px;
+$base-line-height: 1.65rem;
+$type-scale: $golden;
 
 body, html {
     font-family: $fontstack-body;
-    font-size: 17px;
-    line-height: 1.65em;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
     word-wrap: break-word;
+}
+
+footer {
+    font-size: modular-scale(-1, $base-font-size, $type-scale);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $fontstack-headings;
     font-weight: bold;
+}
+
+h6 {
+    font-size: modular-scale(0, $base-font-size, $type-scale);
+}
+h5 {
+    font-size: modular-scale(0, $base-font-size, $type-scale);
+}
+h4 {
+    font-size: modular-scale(0, $base-font-size, $type-scale);
+}
+h3 {
+    font-size: modular-scale(1, $base-font-size, $type-scale);
+}
+h2 {
+    font-size: modular-scale(2, $base-font-size, $type-scale);
+    line-height: 3.25rem;
+}
+h1 {
+    font-size: modular-scale(2.5, $base-font-size, $type-scale);
+    line-height: 4.5rem;
 }
