@@ -3,6 +3,7 @@ $light-warm: #FFFCF3;
 $dark-cool: #1E1E20;
 
 $green-main: #4EBB78;
+$blue-light: #5FC6DC;
 
 $clr-dark: $dark-cool;
 $clr-light: $light-warm;
@@ -10,3 +11,5 @@ $clr-highlight: $green-main;
 
 $clr-white: #ffffff;
 $clr-black: #000000;
+
+$clr-header-bg: darken(desaturate($clr-highlight, 40%), 40%);

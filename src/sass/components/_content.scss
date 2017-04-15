@@ -1,9 +1,7 @@
-$max-width: 756px;
 
 .content {
-    margin: 0 auto;
-    max-width: $max-width;
     padding: 1.0em;
+    padding-bottom: 3.0em;
 
     h2 {
         border-bottom: 1px solid $clr-highlight;

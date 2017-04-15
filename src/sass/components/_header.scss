@@ -1,5 +1,24 @@
 
 header {
-    display: block;
-    padding: 2.0em;
+    background: $clr-header-bg;
+    border-bottom: 1px solid $clr-white;
+    border-right: none;
+    color: $clr-light;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2.0em 1.0em;
+
+    @include media($desktop) {
+        border-bottom: none;
+        border-right: 1px solid $clr-white;
+    }
+
+    .header__content {
+        max-width: $max-content-width;
+
+        @include media($desktop) {
+            text-align: right;
+        }
+    }
+
 }

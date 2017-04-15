@@ -1,0 +1,29 @@
+
+.resume {
+    display: block;
+
+    @include media($desktop) {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+header {
+    display: block;
+
+    @include media($desktop) {
+        display: flex;
+        width: 33%;
+    }
+}
+
+main {
+    @include media($desktop) {
+        max-width: $max-content-width;
+    }
+}
+
+footer {
+
+}
