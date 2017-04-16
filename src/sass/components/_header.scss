@@ -21,4 +21,22 @@ header {
         }
     }
 
+    .header__icon {
+        display: inline;
+    }
+
+    h2 .header__icon {
+        height: 32px;
+        fill: $clr-light;
+        width: 32px;
+    }
+
+    a .header__icon {
+        height: 18px;
+        width: 18px;
+    }
+
+    li {
+        margin-bottom: 0.5em;
+    }
 }

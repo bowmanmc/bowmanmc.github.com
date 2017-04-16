@@ -9,9 +9,13 @@ body {
 
 a {
     color: $clr-highlight;
+    fill: $clr-highlight;
+    font-weight: bold;
+    text-decoration: none;
 
     &:hover {
-        color: lighten($clr-highlight, 10%);
+        color: lighten($clr-highlight, 15%);
+        fill: lighten($clr-highlight, 15%);
     }
 }
 
