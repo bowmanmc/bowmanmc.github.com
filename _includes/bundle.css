@@ -409,7 +409,7 @@ html {
   box-sizing: inherit; }
 
 body, html {
-  font-family: "Merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 17px;
   line-height: 1.65rem;
   word-wrap: break-word; }
@@ -418,7 +418,7 @@ footer {
   font-size: 10.5068px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Fjalla One", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: bold; }
 
 h6 {
@@ -434,12 +434,12 @@ h3 {
   font-size: 1.15rem; }
 
 h2 {
-  font-size: 44.50471px;
-  line-height: 3.25rem; }
+  font-size: 1.5rem;
+  line-height: 2.0rem; }
 
 h1 {
-  font-size: 72.00862px;
-  line-height: 4.5rem; }
+  font-size: 4.0rem;
+  line-height: 4.25rem; }
 
 html {
   background: #4EBB78; }
@@ -468,6 +468,8 @@ ul {
     margin-bottom: 0.5em;
     margin-top: 1.75em;
     text-shadow: 2px 2px 0 #ffffff; }
+  .content h2:first-child {
+    margin-top: 1.5em; }
   .content h3 {
     margin: 0;
     margin-top: 2.0em; }
@@ -498,12 +500,17 @@ header {
   border-right: none;
   color: #FFFCF3;
   display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   justify-content: flex-end;
   padding: 2.0em 1.0em; }
   @media screen and (min-width: 1024px) {
     header {
       border-bottom: none;
       border-right: 1px solid #ffffff; } }
+  header .header__contact {
+    margin-top: 1.75em; }
+    header .header__contact li {
+      margin-bottom: 0.25em; }
   header .header__content {
     max-width: 756px; }
     @media screen and (min-width: 1024px) {
@@ -511,6 +518,8 @@ header {
         text-align: right; } }
   header .header__icon {
     display: inline; }
+  header h1 {
+    margin-top: 0; }
   header h2 .header__icon {
     height: 32px;
     fill: #FFFCF3;

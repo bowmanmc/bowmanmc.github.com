@@ -4,8 +4,13 @@ $sanserif: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Arial,
 $merriweather-stack: 'Merriweather', $serif;
 $fjalla-stack: 'Fjalla One', $sanserif;
 
-$fontstack-body: $merriweather-stack;
-$fontstack-headings: $fjalla-stack;
+$system: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+$medium-headline: KievitOT,Helvetica,sans-serif;
+$medium-body: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+
+$fontstack-headings: $system;
+$fontstack-body: $medium-body;
 
 $base-font-size: 17px;
 $base-line-height: 1.65rem;
@@ -40,10 +45,10 @@ h3 {
     font-size: 1.15rem;
 }
 h2 {
-    font-size: modular-scale(2, $base-font-size, $type-scale);
-    line-height: 3.25rem;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
 }
 h1 {
-    font-size: modular-scale(2.5, $base-font-size, $type-scale);
-    line-height: 4.5rem;
+    font-size: 4.0rem;
+    line-height: 4.25rem;
 }
