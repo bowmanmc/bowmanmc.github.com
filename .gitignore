@@ -5,5 +5,3 @@ build
 node_modules
 .DS_Store
 npm-debug*.log
-src/_includes/*.css
-src/_includes/*.map

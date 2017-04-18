@@ -3,13 +3,13 @@ import browserSync from 'browser-sync';
 
 browserSync({
     'files': [
-        'docs/**/*'
+        'build/**/*'
     ],
     'watchOptions': {
         'ignoreInitial': true
     },
     'server': {
-        'baseDir': 'docs',
+        'baseDir': 'build',
     },
     'port': 9000,
     'middleware': [],

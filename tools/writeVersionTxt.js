@@ -6,7 +6,7 @@ const pkg = require('../package.json');
 const rimraf = require('rimraf');
 
 
-let out = `build/version.txt`;
+let out = `./version.txt`;
 let now = moment();
 
 rimraf.sync(out);
