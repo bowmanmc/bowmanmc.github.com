@@ -4,9 +4,10 @@ header {
     border-bottom: 1px solid $clr-white;
     border-right: none;
     color: $clr-light;
-    display: flex;
+    display: block;
+    //display: flex;
     font-family: $fontstack-headings;
-    justify-content: flex-end;
+    //justify-content: flex-end;
     padding: 2.0em 1.0em;
 
     @include media($desktop) {
@@ -26,7 +27,11 @@ header {
         max-width: $max-content-width;
 
         @include media($desktop) {
+            height: 1vh;
+            display: block;
+            position: sticky;
             text-align: right;
+            top: 0;
         }
     }
 

@@ -482,26 +482,13 @@ ul {
   .content p {
     margin: 0; }
 
-footer {
-  background: #000000;
-  border-top: 1px solid #4EBB78;
-  box-shadow: 0 0 0.5em #1E1E20;
-  color: #FFFCF3;
-  min-height: 400px;
-  padding: 2.0em 1.0em; }
-  footer div {
-    margin: 0 auto;
-    margin-bottom: 2.0em;
-    max-width: 756px; }
-
 header {
   background: #1d201e;
   border-bottom: 1px solid #ffffff;
   border-right: none;
   color: #FFFCF3;
-  display: flex;
+  display: block;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  justify-content: flex-end;
   padding: 2.0em 1.0em; }
   @media screen and (min-width: 1024px) {
     header {
@@ -515,7 +502,11 @@ header {
     max-width: 756px; }
     @media screen and (min-width: 1024px) {
       header .header__content {
-        text-align: right; } }
+        height: 1vh;
+        display: block;
+        position: sticky;
+        text-align: right;
+        top: 0; } }
   header .header__icon {
     display: inline; }
   header h1 {
