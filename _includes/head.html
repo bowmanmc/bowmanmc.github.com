@@ -12,8 +12,12 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" /> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> -->
 
-    <style>
+    <!-- Include minified css inline for speed! -->
+    <style media="screen">
         {% include bundle.min.css %}
+    </style>
+    <style media="print">
+        {% include print.min.css %}
     </style>
 
 </head>

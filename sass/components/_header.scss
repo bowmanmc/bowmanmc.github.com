@@ -41,6 +41,7 @@ header {
     a {
         color: $clr-highlight;
         fill: $clr-highlight;
+        text-decoration: none;
 
         &:hover {
             color: lighten($clr-highlight, 15%);

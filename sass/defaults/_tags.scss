@@ -10,8 +10,9 @@ body {
 a {
     color: $clr-highlight-alt;
     fill: $clr-highlight-alt;
+    font-family: $fontstack-headings;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:hover {
         color: lighten($clr-highlight-alt, 15%);

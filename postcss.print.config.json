@@ -1,0 +1,15 @@
+{
+    "input": "_includes/print.css",
+    "output": "_includes/print.min.css",
+    "use": [
+        "autoprefixer",
+        "cssnano"
+    ],
+    "autoprefixer": {
+        "browsers": "> 5%, Android 2.3"
+    },
+    "cssnano": {
+        "safe": true,
+        "sourcemap": false
+    }
+}
