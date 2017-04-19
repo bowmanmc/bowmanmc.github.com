@@ -449,13 +449,13 @@ body {
   color: #1E1E20; }
 
 a {
-  color: #4EBB78;
-  fill: #4EBB78;
+  color: #348855;
+  fill: #348855;
   font-weight: bold;
   text-decoration: none; }
   a:hover {
-    color: #85d0a2;
-    fill: #85d0a2; }
+    color: #4ebb78;
+    fill: #4ebb78; }
 
 ul {
   list-style: none; }
@@ -510,15 +510,21 @@ header {
         top: 0; } }
   header .header__icon {
     display: inline; }
+  header a {
+    color: #4EBB78;
+    fill: #4EBB78; }
+    header a:hover {
+      color: #85d0a2;
+      fill: #85d0a2; }
+  header a .header__icon {
+    height: 18px;
+    width: 18px; }
   header h1 {
     margin-top: 0; }
   header h2 .header__icon {
     height: 32px;
     fill: #FFFCF3;
     width: 32px; }
-  header a .header__icon {
-    height: 18px;
-    width: 18px; }
   header li {
     margin-bottom: 0.5em; }
 

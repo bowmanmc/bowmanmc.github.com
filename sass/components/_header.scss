@@ -38,6 +38,20 @@ header {
         display: inline;
     }
 
+    a {
+        color: $clr-highlight;
+        fill: $clr-highlight;
+
+        &:hover {
+            color: lighten($clr-highlight, 15%);
+            fill: lighten($clr-highlight, 15%);
+        }
+    }
+
+    a .header__icon {
+        height: 18px;
+        width: 18px;
+    }
 
     h1 {
         margin-top: 0;
@@ -47,11 +61,6 @@ header {
         height: 32px;
         fill: $clr-light;
         width: 32px;
-    }
-
-    a .header__icon {
-        height: 18px;
-        width: 18px;
     }
 
     li {

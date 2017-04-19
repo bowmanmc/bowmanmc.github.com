@@ -8,14 +8,14 @@ body {
 }
 
 a {
-    color: $clr-highlight;
-    fill: $clr-highlight;
+    color: $clr-highlight-alt;
+    fill: $clr-highlight-alt;
     font-weight: bold;
     text-decoration: none;
 
     &:hover {
-        color: lighten($clr-highlight, 15%);
-        fill: lighten($clr-highlight, 15%);
+        color: lighten($clr-highlight-alt, 15%);
+        fill: lighten($clr-highlight-alt, 15%);
     }
 }
 
