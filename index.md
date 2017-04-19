@@ -38,7 +38,7 @@ Security Clearance: TS/SCI. Lead software developer for NGA Innovision’s GIAT 
 
 ### Senior Software Engineer, Moreover Technologies
 ### Dayton, Ohio – 2010-2011
-Developed software in Java for a news and social media startup. Wrote specialized “Harvesters” for scraping specific types of content off of websites (blogs, news articles, and used car listings). Used cloud computing technologies (Amazon EC2) to scale out content harvesting and data mining tasks.
+Developed software in Java for a news and social media startup. Wrote specialized “Harvesters” for scraping specific types of content off of websites (blogs, news articles, and used car listings). Used cloud computing technologies (Amazon EC2) to scale out content harvesting and data mining tasks. Worked as a part of a distributed development team with members in Dayton, Washington D.C., and London.
 #### Java, Spring, Struts
 
 ### Principal Software Engineer, General Dynamics
@@ -53,7 +53,7 @@ Developed several of the Engyro non-Windows monitoring agents for Microsoft's Sy
 
 ### Software Engineer, Red Hat
 ### Raleigh, North Carolina – 2004-2006
-Worked on the Red Hat Network Satellite Server product helping to deliver bug fixes and new features to customers on a tight release schedule. I worked on the server-side team, responsible for developing the web interface and APIs to allow system administrators to update and manage a large network of Red Hat Linux machines easily. Day to day activities consisted of writing code for the Java-based web application, documenting code and best practices, writing test plans, preparing level-of-effort time estimates for project management, and helping team members debug code.
+Worked on the Red Hat Network Satellite Server product helping to deliver bug fixes and new features to customers on a tight release schedule. I worked on the server-side team, responsible for developing the web interface and APIs to allow system administrators to update and manage a large network of Red Hat Linux machines easily. Day to day activities consisted of writing code for the Java-based web application, documenting code and best practices, writing test plans, preparing level-of-effort time estimates for project management, and helping team members debug code. Worked as a part of a distributed development team with members in Raleigh, Boston, and Portland.
 #### Java, Struts
 
 
@@ -61,7 +61,7 @@ Worked on the Red Hat Network Satellite Server product helping to deliver bug f
 ### Americons
 [http://americons.us](http://americons.us)
 
-Americons is an open source icon font and SVG library I developed in early 2017. It provides developers with an easy way to incorporate state outlines into their projects. The state SVG files were developed using TIGER shape files from the Census Bureau, D3, JSDom, SVGO, and NPM/Node.js scripts to automate the process.
+Americons is an open source icon font and SVG library I developed in early 2017. It provides developers with an easy way to incorporate state outlines into their projects. The state SVG files were developed using TIGER shape files from the Census Bureau, D3, JSDom, SVGO, and NPM/Node.js scripts to automate the process.
 
 ### Dayton Data Visualization
 [http://daytondv.org](http://daytondv.org)
@@ -88,12 +88,12 @@ Dayton Data Visualization (Dayton, OH – Nov. 2014), Chicago Web Conf (Chicago
 ### Squatchin with D3.js
 [https://github.com/bowmanmc/squatchin](https://github.com/bowmanmc/squatchin)
 
-JS.Geo (Philadelpha, PA – Aug. 2015), Dayton Web Developers Meetup (Dayton, OH – Jan. 2016)
+JS.Geo (Philadelphia, PA – Aug. 2015), Dayton Web Developers Meetup (Dayton, OH – Jan. 2016)
 
 ### Web Mapping Workshop (Dayton, Ohio – Sep. 2016)
 [https://codefordayton.github.io/mapping_workshop](https://codefordayton.github.io/mapping_workshop)
 
-Dayton Data Visualization, Code for Dayton, and Girl Develop it (Dayton chapter) worked together to author, organize, and host a half day workshop for their members. I authored and taught the workshop covering usage of the Leaflet JavaScript library for web mapping.
+Dayton Data Visualization, Code for Dayton, and Girl Develop it (Dayton chapter) worked together to author, organize, and host a half day workshop for their members. I authored and taught the workshop covering usage of the Leaflet JavaScript library for web mapping. 
 
 
 ## Education
