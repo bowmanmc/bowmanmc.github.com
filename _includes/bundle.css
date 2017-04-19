@@ -542,7 +542,7 @@ header {
   @media screen and (min-width: 1024px) {
     header {
       display: flex;
-      width: 33%; } }
+      width: 36%; } }
 
 @media screen and (min-width: 1024px) {
   main {
