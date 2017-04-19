@@ -5,9 +5,7 @@ header {
     border-right: none;
     color: $clr-light;
     display: block;
-    //display: flex;
     font-family: $fontstack-headings;
-    //justify-content: flex-end;
     padding: 2.0em 1.0em;
 
     @include media($desktop) {
@@ -25,6 +23,7 @@ header {
 
     .header__content {
         max-width: $max-content-width;
+        text-align: center;
 
         @include media($desktop) {
             height: 1vh;
