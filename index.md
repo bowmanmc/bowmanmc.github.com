@@ -21,15 +21,21 @@ GeoServer, Photoshop, Illustrator, Sketch,
 QGIS, Atom, Docker, Jira, Jenkins
 
 ## Work History
-### Principal Software Engineer, Applied Information Sciences
-### Dayton, Ohio – 2014-Present
-Security Clearance: TS/SCI. Principal Software Engineer for several contracts for the National Geospatial-Intelligence Agency (NGA) and the National Air and Space Intelligence Center (NASIC) developing web-based mapping and data visualization applications for intelligence analysts. Worked closely with end users to understand their job functions and needs first, then built tools to help distill a large amount of complex data into a useful format and answer key intelligence questions. 
-####  React, Angular, D3, Leaflet, Sass, Node.js, Docker
+
+### Director of Product Management, Mile Two
+### Dayton, Ohio - 2017-Present
+Security Clearance: TS/SCI. Led the development of products for both commercial and DoD (AFRL, NGA, and NASIC) clients. Managed cross-functional teams to develop highly technical applications, with an eye towards design and usability, to help analysts better utilize technology to accomplish their missions.
+#### React, Angular, D3, Electron, Sass
 
 ### Adjunct Professor, Sinclair Community College
 ### Dayton, Ohio – 2014-Present
 Adjunct professor for the Computer Information Systems department, teaching an evening programming course one night a week. Instructed students from a wide range of backgrounds, ages, and skill levels. Courses taught include Introduction to Problem Solving and Computer Programming (C++), Web Development with HTML and CSS, C++ Software Development, and Java Software Development.
 ####  C++, HTML/CSS, Java
+
+### Principal Software Engineer, Applied Information Sciences
+### Dayton, Ohio – 2014-2017
+Security Clearance: TS/SCI. Principal Software Engineer for several contracts for the National Geospatial-Intelligence Agency (NGA) and the National Air and Space Intelligence Center (NASIC) developing web-based mapping and data visualization applications for intelligence analysts. Worked closely with end users to understand their job functions and needs first, then built tools to help distill a large amount of complex data into a useful format and answer key intelligence questions. 
+####  React, Angular, D3, Leaflet, Sass, Node.js, Docker
 
 ### Principal Software Engineer, Booz Allen Hamilton
 ### Dayton, Ohio – 2011-2014
@@ -93,7 +99,7 @@ JS.Geo (Philadelphia, PA – Aug. 2015), Dayton Web Developers Meetup (Dayton,
 ### Web Mapping Workshop (Dayton, Ohio – Sep. 2016)
 [https://codefordayton.github.io/mapping_workshop](https://codefordayton.github.io/mapping_workshop)
 
-Dayton Data Visualization, Code for Dayton, and Girl Develop it (Dayton chapter) worked together to author, organize, and host a half day workshop for their members. I authored and taught the workshop covering usage of the Leaflet JavaScript library for web mapping. 
+Dayton Data Visualization, Code for Dayton, and Girl Develop it (Dayton chapter) worked together to author, organize, and host a half day workshop for their members. I authored and taught the workshop covering usage of the Leaflet JavaScript library for web mapping.
 
 
 ## Education

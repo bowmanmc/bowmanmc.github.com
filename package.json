@@ -18,7 +18,8 @@
     "build": "npm-run-all sass jekyll",
     "prestart": "npm run build",
     "start": "npm-run-all --parallel server:dev watch",
-    "dist": "npm-run-all sass jekyll version",
+    "dist": "npm-run-all sass jekyll version cname",
+    "cname": "copy CNAME build",
     "version": "babel-node tools/writeVersionTxt.js"
   },
   "repository": {

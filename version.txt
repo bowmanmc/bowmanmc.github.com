@@ -1,0 +1,12 @@
+
+Michael Bowman
+=========================
+Name: bowmanmc.github.io
+Description: Resume website for Michael Bowman
+URL: https://github.com/bowmanmc/bowmanmc.github.io
+Version: 2.0.0
+Git Branch: master
+Git Revision: c1f5b5ddb18efeb108a49516e31305bc223286d6
+Build Time: 2017-10-22 11:07:31
+Build Host: Rock.local [darwin]
+
